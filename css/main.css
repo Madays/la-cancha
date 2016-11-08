@@ -1,0 +1,50 @@
+/* Inserta tu CSS aqui */
+body {
+    background: green;
+}
+div.perimetro_cancha {
+    margin: 30px;
+    border: solid 1px #fff;
+    position: relative;
+    width: 1000px;
+    height: 400px;
+}
+.arco_derecho {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    border: solid 1px #fff;    
+    width: 100px;
+    height: 200px;    
+}
+.pelota_derecha img {
+    padding-left: 90px;
+}
+.arco_izquierdo {
+    position: absolute;
+    right: 0;
+    border: solid 1px #fff;
+    width: 100px;
+    height: 200px;   
+    top: 100px;         
+}
+
+.centro {
+    position: relative;
+    border: solid 1px #fff;
+    width: 150px;
+    height: 150px; 
+    left: 450px;
+    top: 130px;
+    border-radius: 50%;
+}
+.pelota_centro img {
+    position: absolute;
+    left: 100px;
+    top: -100px;
+}
+.pelota_izquierdo img {
+    position: absolute;
+    bottom: 0;
+    right: 110px;
+}
